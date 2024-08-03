@@ -3,7 +3,7 @@ name: SonarCloud Analysis
 on:
   push:
     branches:
-      - main  # Update to your main branch name if different
+      - master # Update to your main branch name if different
   pull_request:
     types: [opened, synchronize, reopened]
 
